@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100vh;
+}
+
+.input-wrap{
+	position: absolute;
+	width: 619px;
+	left: 482px;
+	top: 250px;
+	
+}
+
+/*
+*
+*  Page
+*/
+
+.page{
+	font-size: 12px;
+	text-transform: uppercase;
+	
+}
+
+	.ua104, .cabinet, p {
+		display: inline-block;
+		text-decoration: none;
+	}
+	.ua104:hover, .cabinet:hover{
+		text-decoration: underline;
+	}
+	.ua104{
+		color: #70706F;
+	}
+		
+	.header{
+		margin-top:18px;
+		margin-bottom: -5px;
+		text-transform: uppercase;
+		font-size: 16px;
+		font-family: 'Arial', serif;
+		color: #70706F;
+		font-weight: normal;
+	}
+
+/*
+*
+*  Page
+*/
+
+/*
+*
+*  Main
+*/	
+.main{
+	margin-top: 30px;
+	background: #F1F1F1;
+	border: 1px solid #70706F;
+}
+.form, .list{
+	margin-left: 20px;
+}
+.line{
+   margin: 57px 20px 15px 20px;
+
+}
+.login  {
+	display: block;
+	margin-bottom: 16px
+}
+ .email{
+ 	display: block;
+ 	margin-top: 9px;
+ }
+
+.button{
+	display: inline-block;
+}
+.password__text{
+	display: block;
+}
+.pass{
+	display: inline-block;
+	margin-top: 9px; 
+}
+.field{
+	width: 278px;
+	height: 26px;
+}
+.btn{
+	background: #FFFFFF;
+	width: 60px;
+	height: 26px;
+	border: 1px solid #9A9A9A;
+	margin-left: 14px;
+}
+.btn:hover{
+	border: 1px solid red;
+}
+.list, .list__item{
+	color: #F28F00;
+}
+
+.field:hover{
+	border: 1px solid #70706F;
+}
+.list{
+	padding-bottom: 2px;
+}
