@@ -1,0 +1,48 @@
+.download{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+     .download-container{
+	width: 100%;	
+  }
+}
+
+.download__desc{
+	text-align: center;
+	color: #2d3033;
+}
+
+.download__desc--main{
+	margin: 0;
+	padding-top: 100px;
+	font-family: $font-fam-dnl;
+	font-size: 28px;
+	font-weight: 300;
+}
+
+.download__desc--text{
+	margin: 0;
+	padding-top: 18px;
+	font-family: $font-fam-dnl;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.download__btn{
+	padding: 40px 0 100px 0;
+	text-align: center;
+}
+.dnl-btn {
+  display: inline-block;
+  background: $page-btn-bg;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  line-height: 1;
+  font-weight: 600;
+  padding: 16px 50px;
+  border-radius: 2px;
+  font-family:$font-fam-dnl;
+}
