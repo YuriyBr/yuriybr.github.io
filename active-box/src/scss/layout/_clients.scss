@@ -1,0 +1,51 @@
+.clients{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.clients-container{
+	width: 100%;
+	display: flex;
+}
+
+.client-left{
+background: url('../img/quote-bg-1.jpg');
+width: 50%;
+}
+
+.client-right{
+	background:$client-bg-right;
+	width: 50%;
+}
+
+.clients-main{
+	width: 500px;
+	margin:100px 0 0 85px;
+	font-family: $client-family-main;
+	font-weight: 400i;
+	font-size: 2.25rem;
+	color: #fff;
+	line-height: 2.625rem;
+}
+
+.clients-text{
+	padding: 37px 0 0 85px;
+	font-family: $client-family-text;
+	font-weight: 700;
+	font-size: 0.8125rem;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.slidecontrol{
+	display: block;
+	margin: 85px 0 105px 287px;
+	i {color:#755d6e;
+	padding-right: 7px;
+}
+i:nth-child(2){
+color:#fff;
+}}
+
