@@ -1,0 +1,13 @@
+@mixin container {
+	width: 1230px;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin bgOpacity($color, $opacity) {
+    background: rgba($color, $opacity);
+}
